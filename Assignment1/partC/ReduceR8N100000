@@ -1,0 +1,33 @@
+Sum: 2.2357316017 > task: 6
+DATA from task  6447584 reduced 
+
+total time : 0.04432837 sec
+Sum: 2.2959821224 > task: 7
+DATA from task  6447584 reduced 
+
+total time : 0.00024741 sec
+Sum: 2.3053371906 > task: 3
+DATA from task  6447584 reduced 
+
+total time : 0.00024524 sec
+Sum: 2.2670507431 > task: 0
+DATA from task  6447584 reduced 
+
+----------------total sum: 17.97381544  --------------------
+total time : 0.10683324 sec
+Sum: 2.3132748604 > task: 5
+DATA from task  6447584 reduced 
+
+total time : 0.00025336 sec
+Sum: 2.2010495663 > task: 4
+DATA from task  6447584 reduced 
+
+total time : 0.05118747 sec
+Sum: 2.2670507431 > task: 1
+DATA from task  6447584 reduced 
+
+total time : 0.00025604 sec
+Sum: 2.0883386135 > task: 2
+DATA from task  6447584 reduced 
+
+total time : 0.00028216 sec

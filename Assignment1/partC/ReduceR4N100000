@@ -1,0 +1,17 @@
+Sum: 4.4562788010 > task: 1
+DATA from task  6447584 reduced 
+
+total time : 0.00072510 sec
+Sum: 4.3831725121 > task: 2
+DATA from task  6447584 reduced 
+
+total time : 0.00066047 sec
+Sum: 4.5315122604 > task: 3
+DATA from task  6447584 reduced 
+
+total time : 0.00071937 sec
+Sum: 4.4562792778 > task: 0
+DATA from task  6447584 reduced 
+
+----------------total sum: 17.82724285  --------------------
+total time : 0.00097359 sec
