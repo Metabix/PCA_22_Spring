@@ -1,0 +1,70 @@
+ No input file inputbt.data. Using compiled defaults
+
+
+ NAS Parallel Benchmarks 4.1 Parallel C++ version with OpenMP - BT Benchmark
+
+ Size:   64x  64x  64
+ Iterations:  200    dt:   0.000800
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class_npb A
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 1.0806346714637E+02 1.0806346714637E+02 7.4957683679475E-15
+           2 1.1319730901221E+01 1.1319730901221E+01 4.7077713814080E-15
+           3 2.5974354511582E+01 2.5974354511582E+01 5.7446653560951E-15
+           4 2.3665622544679E+01 2.3665622544679E+01 1.1409217698756E-14
+           5 2.5278963211749E+02 2.5278963211748E+02 1.1917819470629E-14
+ Comparison of RMS-norms of solution error
+           1 4.2348416040525E+00 4.2348416040525E+00 2.0973120195338E-16
+           2 4.4390282496996E-01 4.4390282496996E-01 0.0000000000000E+00
+           3 9.6692480136346E-01 9.6692480136346E-01 2.2963999331895E-16
+           4 8.8302063039765E-01 8.8302063039765E-01 0.0000000000000E+00
+           5 9.7379901770829E+00 9.7379901770829E+00 1.8241513978733E-16
+ Verification Successful
+
+
+ BT Benchmark Completed
+ class_npb       =                        A
+ Size            =             64x  64x  64
+ Total threads   =                       16
+ Iterations      =                      200
+ Time in seconds =                    22.57
+ Mop/s total     =                  7455.61
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      4.1
+ Compile date    =              24 Apr 2022
+ Compiler ver    =                    8.2.0
+ OpenMP version  =                   201511
+
+ Compile options:
+    CC           = g++ -pg -std=c++14 
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common 
+    CFLAGS       = -O3 -pg -fopenmp -mcmodel=medium
+    CLINKFLAGS   = -O3 -pg -fopenmp -mcmodel=medium
+    RAND         = (none)
+
+
+----------------------------------------------------------------------
+    NPB-CPP is developed by: 
+        Dalvan Griebler
+        Gabriell Araujo (Sequential Porting)
+        Júnior Löff (Parallel Implementation)
+
+    In case of questions or problems, please send an e-mail to us:
+        dalvan.griebler; gabriell.araujo; junior.loff@edu.pucrs.br
+----------------------------------------------------------------------
+

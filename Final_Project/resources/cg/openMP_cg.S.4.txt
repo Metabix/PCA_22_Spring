@@ -1,0 +1,64 @@
+
+
+ NAS Parallel Benchmarks 4.1 Parallel C++ version with OpenMP - CG Benchmark
+
+ Size:        1400
+ Iterations:    15
+ Initialization time =           0.046 seconds
+
+   iteration           ||r||                 zeta
+        1       1.37451439444265e-13 9.9986441579140e+00
+        2       2.16003167069693e-15 8.5733279203222e+00
+        3       2.24381057397954e-15 8.5954510374058e+00
+        4       1.95669729229705e-15 8.5969972340738e+00
+        5       1.89678489143647e-15 8.5971549151767e+00
+        6       1.99854198214895e-15 8.5971744311608e+00
+        7       1.93463276343325e-15 8.5971770704913e+00
+        8       1.97274105706535e-15 8.5971774440630e+00
+        9       2.08517107354309e-15 8.5971774983942e+00
+       10       1.74323335293448e-15 8.5971775064409e+00
+       11       1.81069500402378e-15 8.5971775076486e+00
+       12       1.85684246637234e-15 8.5971775078318e+00
+       13       1.84449846717124e-15 8.5971775078598e+00
+       14       1.80717017658321e-15 8.5971775078641e+00
+       15       1.84025578844004e-15 8.5971775078648e+00
+ Benchmark completed
+ VERIFICATION SUCCESSFUL
+ Zeta is     8.5971775078648e+00
+ Error is    1.2397255990878e-15
+
+
+ CG Benchmark Completed
+ class_npb       =                        S
+ Size            =                     1400
+ Total threads   =                        4
+ Iterations      =                       15
+ Time in seconds =                     0.01
+ Mop/s total     =                  9686.67
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      4.1
+ Compile date    =              24 Apr 2022
+ Compiler ver    =                    8.2.0
+ OpenMP version  =                   201511
+
+ Compile options:
+    CC           = g++ -pg -std=c++14 
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common 
+    CFLAGS       = -O3 -pg -fopenmp -mcmodel=medium
+    CLINKFLAGS   = -O3 -pg -fopenmp -mcmodel=medium
+    RAND         = randdp
+
+
+----------------------------------------------------------------------
+    NPB-CPP is developed by: 
+        Dalvan Griebler
+        Gabriell Araujo (Sequential Porting)
+        Júnior Löff (Parallel Implementation)
+
+    In case of questions or problems, please send an e-mail to us:
+        dalvan.griebler; gabriell.araujo; junior.loff@edu.pucrs.br
+----------------------------------------------------------------------
+

@@ -1,0 +1,51 @@
+
+
+ NAS Parallel Benchmarks 4.1 Parallel C++ version with OpenMP - FT Benchmark
+
+ Size                :  256x 256x 128
+ Iterations                  :      6
+
+ T =    1     Checksum =    5.046735008193e+02    5.114047905510e+02
+ T =    2     Checksum =    5.059412319734e+02    5.098809666433e+02
+ T =    3     Checksum =    5.069376896287e+02    5.098144042213e+02
+ T =    4     Checksum =    5.077892868474e+02    5.101336130759e+02
+ T =    5     Checksum =    5.085233095391e+02    5.104914655194e+02
+ T =    6     Checksum =    5.091487099959e+02    5.107917842803e+02
+ Result verification successful
+ class_npb = A
+
+
+ FT Benchmark Completed
+ class_npb       =                        A
+ Size            =            256x 256x 128
+ Total threads   =                        1
+ Iterations      =                        6
+ Time in seconds =                     4.21
+ Mop/s total     =                  1695.87
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      4.1
+ Compile date    =              24 Apr 2022
+ Compiler ver    =                    8.2.0
+ OpenMP version  =                   201511
+
+ Compile options:
+    CC           = g++ -pg -std=c++14 
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common 
+    CFLAGS       = -O3 -pg -fopenmp -mcmodel=medium
+    CLINKFLAGS   = -O3 -pg -fopenmp -mcmodel=medium
+    RAND         = randdp
+
+
+----------------------------------------------------------------------
+    NPB-CPP is developed by: 
+        Dalvan Griebler
+        Gabriell Araujo (Sequential Porting)
+        Júnior Löff (Parallel Implementation)
+
+    In case of questions or problems, please send an e-mail to us:
+        dalvan.griebler; gabriell.araujo; junior.loff@edu.pucrs.br
+----------------------------------------------------------------------
+
